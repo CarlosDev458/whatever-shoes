@@ -1,0 +1,13 @@
+ .container {
+     height: 80vh;
+     flex-direction: column;
+     padding-left: 250px;
+ }
+
+ .container h1 {
+     font-size: 50px;
+ }
+
+ main {
+     margin-top: 58px;
+ }

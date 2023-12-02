@@ -1,0 +1,81 @@
+.header-del-modal {
+    background-color: rgb(252, 64, 64);
+    color: white;
+    padding: 15px;
+}
+
+.body-del-modal {
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 20px;
+}
+
+#btn_not {
+    background-color: rgb(252, 64, 64);
+    color: white;
+    border: 3px solid rgb(252, 64, 64);
+}
+
+#btn_yes {
+    color: black;
+    border: 3px solid rgb(252, 64, 64);
+}
+
+#btn_yes:hover {
+    color: rgb(252, 64, 64);
+    border: 3px solid rgb(252, 64, 64);
+    background-color: rgb(255, 208, 208);
+}
+
+.data_inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.data_inputs > div{
+    padding: 10px;
+}
+
+.form-group {
+    padding-bottom: 10px;
+}
+
+.forms-pag > label {
+    padding-bottom: 15px;
+}
+
+.check-forms-pag > div{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.close-modal-venda {
+    background-color: rgb(126, 126, 126);
+    padding: 10px;
+}
+
+.save-modal-venda {
+    background-color: #007bff;
+    padding: 10px; 
+}
+
+input[readonly] {
+    background-color: #f2f2f2;
+    /* color: #999999; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

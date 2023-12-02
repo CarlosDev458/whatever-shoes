@@ -1,0 +1,32 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  #main-navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .change_navbar {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .navbar-brand {
+    padding-left: 20px;
+  }
+  
+  /* ----------------------------------------------- */
+  
+  #link_null {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  

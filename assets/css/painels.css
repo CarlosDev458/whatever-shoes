@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-right: 30px;
+  padding-left: 275px;
+}
+
+.content {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#tela_funcionario {
+  width: 1700px;
+}
+
+.form {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.title_main {
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.button {
+  height: 45px;
+  margin-right: 40px;
+  background-color: rgb(129, 18, 151);
+  color: white;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(155, 98, 167);
+}
+
+.search {
+  width: 600px;
+  height: 45px;
+}
+
+.filter-btn {
+  background-color: rgb(129, 18, 151);
+  color: white;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  height: 45px;
+}
+
+.title_central {
+  font-size: 40px;
+}
+
+.functionalities {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.btn-func {
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgb(130, 35, 253);
+  color: white;
+  padding: 4px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  padding-right: 12px;
+  padding-left: 8px;
+  margin-right: 20px;
+  height: 40px;
+}
+
+#btn_delete:hover {
+  background-color: rgb(255, 44, 44);
+}
+
+.table {
+  width: 100%;
+  border: 1px solid rgb(71, 71, 71);  
+}
+
+.header {
+  background-color: rgb(123, 114, 114);
+  color: white;
+  border: 2px solid rgb(62, 59, 59);
+  border-right: 0px;
+  border-left: 0px;
+  height: 15px;
+}
+
+.header >th {
+  padding: 0;
+}
+
+.body-table {
+  background-color: rgb(255, 255, 255);
+}
+
+.line_table {
+  border-bottom: 1px solid rgb(134, 134, 134);
+  height: 20px;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.img_btn {
+  filter: invert(100%);
+  height: 25px;
+  padding: 0px;
+  padding-right: 5px;
+}
